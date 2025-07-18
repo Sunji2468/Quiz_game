@@ -150,7 +150,7 @@ function restartQuiz() {
 
 async function initializeQuiz() {
     try {
-        const response = await fetch('http://localhost:3001/questions', {
+        const response = await fetch('https://quiz-game-frvf.onrender.com/questions', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
